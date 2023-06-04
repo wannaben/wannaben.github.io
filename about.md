@@ -5,7 +5,8 @@ Please select an option:
 - [Homepage](index.md)
 - [Contact](contact.md)
 
-
+<a href="https://www.dynamsoft.com/barcode-reader/downloads">Dynamsoft website</a> == $0
+<a href="https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/BarcodeScanner.html?ver=9.6.20&amp;utm_source=guide#singleframemode">Single Frame Mode</a> == $0
 
 <video id="myVideo" controls width="400" autoplay="true">
     <source src="https://tst.dynamsoft.com/public/docs/dbr/javascript/How%20to%20Use%20Dynamsoft%20Barcode%20Reader%20JavaScript%20SDK%20v1.1.mp4">
