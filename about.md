@@ -23,7 +23,7 @@ Please select an option:
 
         // Set the autoplay flag and expiration time in localStorage
         localStorage.setItem('autoplay', 'true');
-        const expirationTime = new Date().getTime() + 24 * 60 * 60 * 1000; // 24 hours
+        const expirationTime = new Date().getTime() + 5 * 60 * 1000; // 24 hours
         localStorage.setItem(expirationKey, expirationTime);
     } else {
         // Check if the expiration time has passed
