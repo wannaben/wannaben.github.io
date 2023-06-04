@@ -1,3 +1,4 @@
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
 THIS IS A TEST ONLY
 
