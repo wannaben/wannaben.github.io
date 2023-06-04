@@ -9,6 +9,21 @@ THIS IS A TEST ONLY
     // Check if autoplay flag exists in sessionStorage
     const autoplayFlag = sessionStorage.getItem('autoplay');
 
+    if (!autoplayFlag) {
+        // Autoplay the video if the flag doesn't exist
+        const videoElement = document.getElementById('myVideo');
+        videoElement.autoplay = true;
+
+        // Set the autoplay flag in sessionStorage
+        sessionStorage.setItem('autoplay', 'true');
+    }
+</script>
+
+
+<script>
+    // Check if autoplay flag exists in sessionStorage
+    const autoplayFlag = sessionStorage.getItem('autoplay');
+
     if (autoplayFlag && autoplayFlag === 'true') {
         // Autoplay the video only if the flag is not set to 'true'
         const videoElement = document.getElementById('myVideo');
