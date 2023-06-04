@@ -17,16 +17,8 @@ THIS IS A TEST ONLY
 
         // Set the autoplay flag in sessionStorage
         sessionStorage.setItem('autoplay', 'true');
-    }
-</script>
-
-
-<script>
-    // Check if autoplay flag exists in sessionStorage
-    const autoplayFlag = sessionStorage.getItem('autoplay');
-
-    if (autoplayFlag && autoplayFlag === 'true') {
-        // Autoplay the video only if the flag is not set to 'true'
+    } else {
+        // Video autoplay is disabled for subsequent visits
         const videoElement = document.getElementById('myVideo');
         videoElement.autoplay = false;
     }
